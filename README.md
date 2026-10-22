@@ -123,31 +123,31 @@ Pengujian REST API dilakukan menggunakan Postman untuk memastikan seluruh endpoi
 
 Endpoint: `GET /api/kegiatan`
 
-![Pengujian GET semua kegiatan](docs/screenshots/Metode-GET-all.png)
+![Pengujian GET semua kegiatan](docs/hasil_screenshots/Metode-GET-all.png)
 
 ### 7.2 GET — Menampilkan Kegiatan Berdasarkan ID
 
 Endpoint: `GET /api/kegiatan/1`
 
-![Pengujian GET kegiatan berdasarkan ID](docs/screenshots/Metode-GET-id.png)
+![Pengujian GET kegiatan berdasarkan ID](docs/hasil_screenshots/Metode-GET-id.png)
 
 ### 7.3 POST — Menambahkan Kegiatan
 
 Endpoint: `POST /api/kegiatan`
 
-![Pengujian POST kegiatan](docs/screenshots/Metode-POST.png)
+![Pengujian POST kegiatan](docs/hasil_screenshots/Metode-POST.png)
 
 ### 7.4 PUT — Memperbarui Kegiatan
 
 Endpoint: `PUT /api/kegiatan/1`
 
-![Pengujian PUT kegiatan](docs/screenshots/Metode-PUT.png)
+![Pengujian PUT kegiatan](docs/hasil_screenshots/Metode-PUT.png)
 
 ### 7.5 DELETE — Menghapus Kegiatan
 
 Endpoint: `DELETE /api/kegiatan/2`
 
-![Pengujian DELETE kegiatan](docs/screenshots/Metode-DELETE.png)
+![Pengujian DELETE kegiatan](docs/hasil_screenshots/Metode-DELETE.png)
 
 ### Ringkasan Hasil Pengujian
 
