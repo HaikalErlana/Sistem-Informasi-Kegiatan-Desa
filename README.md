@@ -115,9 +115,49 @@ Status kegiatan yang didukung:
 - `selesai`
 - `dibatalkan`
 
-## 7. Pengujian API
+## 7. Dokumentasi Pengujian API
 
-Pengujian dilakukan menggunakan Postman untuk memastikan kelima operasi CRUD berfungsi, yaitu GET semua data, GET berdasarkan ID, POST, PUT, dan DELETE.
+Pengujian REST API dilakukan menggunakan Postman untuk memastikan seluruh endpoint CRUD berjalan sesuai dengan fungsinya.
+
+### 7.1 GET — Menampilkan Semua Kegiatan
+
+Endpoint: `GET /api/kegiatan`
+
+![Pengujian GET semua kegiatan](docs/screenshots/Metode-GET-all.png)
+
+### 7.2 GET — Menampilkan Kegiatan Berdasarkan ID
+
+Endpoint: `GET /api/kegiatan/1`
+
+![Pengujian GET kegiatan berdasarkan ID](docs/screenshots/Metode-GET-id.png)
+
+### 7.3 POST — Menambahkan Kegiatan
+
+Endpoint: `POST /api/kegiatan`
+
+![Pengujian POST kegiatan](docs/screenshots/Metode-POST.png)
+
+### 7.4 PUT — Memperbarui Kegiatan
+
+Endpoint: `PUT /api/kegiatan/1`
+
+![Pengujian PUT kegiatan](docs/screenshots/Metode-PUT.png)
+
+### 7.5 DELETE — Menghapus Kegiatan
+
+Endpoint: `DELETE /api/kegiatan/2`
+
+![Pengujian DELETE kegiatan](docs/screenshots/Metode-DELETE.png)
+
+### Ringkasan Hasil Pengujian
+
+| No. | Metode | Fungsi | Hasil |
+|---:|---|---|---|
+| 1 | GET | Menampilkan semua kegiatan | Berhasil |
+| 2 | GET | Menampilkan kegiatan berdasarkan ID | Berhasil |
+| 3 | POST | Menambahkan kegiatan | Berhasil |
+| 4 | PUT | Memperbarui kegiatan | Berhasil |
+| 5 | DELETE | Menghapus kegiatan | Berhasil |
 
 ## 8. Entity Relationship Diagram (ERD)
 
